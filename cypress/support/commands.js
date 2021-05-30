@@ -12,7 +12,7 @@
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 //
-Cypress.Commands.add('selectProd', (prodName) => { 
+/*Cypress.Commands.add('selectProd', (prodName) => { 
     cy.get('app-card-list app-card h4 a[href="#"]').each(($el, index, $list)=>{
 
         const text= $el.text()
@@ -22,7 +22,7 @@ Cypress.Commands.add('selectProd', (prodName) => {
         }
 
 
-    })
+    })*/
 
 
 })
